@@ -4,7 +4,7 @@ import React from "react";
 
 const PaymentMethods = () => {
   return (
-    <div className="mt-3 w-full flex flex-col items-center gap-3 border border-[#CFCFCF] rounded-[4px] p-2 lg:flex-row">
+    <div className="mt-4 w-full flex flex-col items-center gap-3 border border-[#CFCFCF] rounded-[4px] p-2 lg:flex-row">
       <div className="w-full flex items-center justify-center gap-3 text-xs text-DimGray">
         <p className="text-xs ">Free shipping</p>
         <div className="w-[1px] h-[22px] bg-[#CFCFCF]"></div>

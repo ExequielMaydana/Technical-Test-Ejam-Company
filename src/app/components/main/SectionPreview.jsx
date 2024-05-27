@@ -52,7 +52,7 @@ const Preview = () => {
         </figure>
       </button>
       <PaymentMethods />
-      <p className="mt-4 text-center text-xs uppercase text-[#F82C2C] lg:text-[18px]">
+      <p className="mt-6 text-center text-xs uppercase text-[#F82C2C] lg:text-[18px]">
         No thanks, I don’t want this.
       </p>
       <Guarantee />
