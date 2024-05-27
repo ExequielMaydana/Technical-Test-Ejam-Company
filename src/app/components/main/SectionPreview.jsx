@@ -28,7 +28,7 @@ const Preview = () => {
   return (
     <article className="w-full flex-col items-start">
       <h2
-        className={`fixed top-[375px] left-0 right-0 m-auto text-lg p-2 bg-white text-center min-[428px]:top-[375px] min-[432px]:top-[355px] min-[472px]:top-[355px] min-[477px]:top-[310px] lg:static lg:m-0 lg:max-w-[550px] lg:text-xl lg:text-start lg:bg-transparent lg:mt-[-.5em] lg:mb-3 ${
+        className={`fixed top-[375px] left-0 right-0 m-auto text-lg p-2 z-10 bg-white text-center min-[428px]:top-[375px] min-[432px]:top-[355px] min-[472px]:top-[355px] min-[477px]:top-[310px] lg:static lg:m-0 lg:max-w-[550px] lg:text-xl lg:text-start lg:bg-transparent lg:mt-[-.5em] lg:mb-3 lg:z-0 ${
           scrolled ? "bg-[#FAFAFA]" : "bg-white"
         }`}
       >

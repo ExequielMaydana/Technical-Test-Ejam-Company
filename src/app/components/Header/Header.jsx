@@ -23,7 +23,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="w-full h-[326px] fixed top-0 left-0 flex flex-col lg:h-auto lg:static ">
+    <header className="w-full h-[326px] fixed top-0 left-0 flex flex-col z-10 lg:h-auto lg:static ">
       <Carrousel />
       <div
         className={`w-full flex flex-col gap-8 bg-white lg:px-16 ${

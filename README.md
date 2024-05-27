@@ -14,23 +14,14 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Características del Proyecto
+Frameworks Utilizados: Next.js 14 y TailwindCSS.
+Responsive Design: La aplicación está diseñada para ser completamente responsiva, asegurando una experiencia óptima tanto en dispositivos móviles como en desktop.
+Metadatos Integrados: Se incluyeron metadatos para mejorar la optimización en motores de búsqueda y la presentación en redes sociales.
+Tiempo de Desarrollo: 9 horas.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Motivación y Plazos
+A pesar de tener 72 horas para completar la prueba, el desarrollo se realizó en 9 horas debido a limitaciones de tiempo causadas por un retraso en la visualización del correo de la prueba. El proyecto se finalizó a las 1:10 AM del 27/05/2024, antes de tener que ir a trabajar a las 7:00 AM.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Nota Personal
+Este proyecto fue desarrollado bajo circunstancias desafiantes. A pesar de recibir la notificación con 19 horas de retraso, y tener compromisos laborales que ocupan gran parte del día, se logró completar la prueba de manera efectiva y profesional en un tiempo reducido.
