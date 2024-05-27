@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="w-full flex-1 h-screen flex flex-col items-center gap-6">
       <Header />
-      <div className="w-full lg:px-[56px]">
+      <div className="w-full lg:px-[56px] lg:mb-10">
         <Product />
       </div>
       <Footer />
