@@ -4,7 +4,7 @@ import React from "react";
 
 const Logos = () => {
   return (
-    <div className="w-full max-w-[1245px] flex items-center justify-between py-6 px-4 bg-White lg:pt-8">
+    <div className="w-full max-w-[1245px] flex items-center justify-between py-6 px-4 bg-White lg:pt-8 lg:mx-auto">
       <figure className="w-[107px] h-[20px] lg:w-[192px] lg:h-[36px]">
         <Image
           width={192}

@@ -16,11 +16,10 @@ const Carrousel = () => {
       prevIndex === data.length - 1 ? 0 : prevIndex + 1
     );
   };
-  console.log(dataCarrousel);
   return (
     <>
       {dataCarrousel && (
-        <div className="h-[42px] py-[10px] px-[20px] w-full relative flex items-center justify-between bg-DarkSlateGray lg:h-[50px] lg:py-[14px] lg:px-[60px] lg:justify-center">
+        <div className="h-[42px] py-[10px] px-[20px] w-full relative flex items-center justify-between bg-DarkSlateGray lg:h-[50px] lg:py-[14px] lg:px-[60px] lg:justify-center xl:px-[140px]">
           <button onClick={prevSlide} className="lg:hidden">
             {" "}
             <Image

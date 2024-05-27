@@ -4,7 +4,7 @@ import React from "react";
 
 const Checkeds = () => {
   return (
-    <ul className="w-full max-w-[1245px] flex items-center justify-between pb-5">
+    <ul className="w-full max-w-[1245px] flex items-center justify-between pb-5 lg:mx-auto">
       {chekeds.map((data) => (
         <li
           key={data.id}
