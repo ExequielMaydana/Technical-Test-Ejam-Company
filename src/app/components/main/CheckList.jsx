@@ -3,7 +3,7 @@ import React from "react";
 
 const CheckList = () => {
   return (
-    <ul className="w-full flex flex-col items-start justify-center text-xs mt-4 gap-4 lg:text-base lg:mt-0">
+    <ul className="w-full flex flex-col items-start justify-center text-xs mt-6 gap-4 lg:text-base">
       <li className="flex items-center justify-center gap-4">
         <figure className="w-[12px] h-[8px] lg:w-[20px] lg:h-[14px]">
           <Image

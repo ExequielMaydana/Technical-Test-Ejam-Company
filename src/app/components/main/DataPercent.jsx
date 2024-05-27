@@ -4,7 +4,7 @@ import React from "react";
 const DataPercent = () => {
   return (
     <div className="mt-6 w-full p-4 bg-[#EDF3FD] flex items-center justify-center gap-6 rounded-[10px] lg:justify-start">
-      <figure className="w-[26px] h-[26px] rounded-full bg-DodgerBlue p-[6px] lg:w-[32px] lg:h-[32px] lg:p-2">
+      <figure className="w-[32px] h-[26px] aspect-square rounded-full bg-DodgerBlue p-[6px] lg:w-[32px] lg:h-[32px] lg:p-2">
         <Image
           width={32}
           height={32}

@@ -1,43 +1,10 @@
+import { chekeds } from "@/app/utils/data";
 import Image from "next/image";
 import React from "react";
 
 const Checkeds = () => {
-  const chekeds = [
-    {
-      id: 0,
-      title: "Cart Review",
-      num: "1",
-      validate: true,
-      active: false,
-      icon: "/icons/checked.svg",
-    },
-    {
-      id: 1,
-      title: "Checkout",
-      num: "2",
-      validate: true,
-      active: false,
-      icon: "/icons/checked.svg",
-    },
-    {
-      id: 2,
-      title: "Special Offer",
-      num: "3",
-      validate: false,
-      active: true,
-      icon: "/icons/checked.svg",
-    },
-    {
-      id: 3,
-      title: "Confirmation",
-      num: "4",
-      validate: false,
-      active: false,
-      icon: "/icons/checked.svg",
-    },
-  ];
   return (
-    <ul className="w-full flex items-center justify-evenly pb-5">
+    <ul className="w-full max-w-[1245px] flex items-center justify-between pb-5">
       {chekeds.map((data) => (
         <li
           key={data.id}
