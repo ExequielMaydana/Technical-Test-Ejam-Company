@@ -7,19 +7,19 @@ const Carrousel = () => {
 
   const prevSlide = () => {
     setActiveIndex((prevIndex) =>
-      prevIndex === 0 ? data.length - 1 : prevIndex - 1
+      prevIndex === 0 ? dataCarrousel.length - 1 : prevIndex - 1
     );
   };
 
   const nextSlide = () => {
     setActiveIndex((prevIndex) =>
-      prevIndex === data.length - 1 ? 0 : prevIndex + 1
+      prevIndex === dataCarrousel.length - 1 ? 0 : prevIndex + 1
     );
   };
   return (
     <>
       {dataCarrousel && (
-        <div className="h-[42px] py-[10px] px-[20px] w-full relative flex items-center justify-between bg-DarkSlateGray lg:h-[50px] lg:py-[14px] lg:px-[60px] lg:justify-center xl:px-[140px]">
+        <div className="h-[42px] py-[10px] px-[20px] w-full relative flex items-center justify-between m-auto bg-DarkSlateGray lg:h-[50px] lg:py-[14px] lg:px-[60px] lg:justify-center xl:px-[140px]">
           <button onClick={prevSlide} className="lg:hidden">
             {" "}
             <Image
